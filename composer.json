@@ -1,0 +1,21 @@
+{
+    "name": "splot/stats-tracker",
+    "description": "Provides common interface for stats tracking.",
+    "keywords": ["stats", "interface", "tracker", "common"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michał Dudek",
+            "email": "michal@michaldudek.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Splot\\StatsTracker\\Tests": "tests/",
+            "Splot\\StatsTracker": "src/"
+        }
+    }
+}
