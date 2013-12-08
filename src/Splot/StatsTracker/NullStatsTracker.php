@@ -26,7 +26,7 @@ class NullStatsTracker implements StatsTrackerInterface
      *                    Might not be supported. Default: empty array.
      */
     public function track($eventName, $increment = 1, array $data = array()) {
-        // ignore
+        // noop
     }
 
 }
